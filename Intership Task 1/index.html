@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Prodify — Ship better products, faster</title>
+    <meta
+      name="description"
+      content="A clean, responsive landing page — accessible and performance-minded."
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a class="logo" href="#" aria-label="Prodify home"
+          >Prod<span>ify</span></a
+        >
+
+        <button
+          id="nav-toggle"
+          aria-controls="primary-nav"
+          aria-expanded="false"
+          aria-label="Open menu"
+        >
+          <span class="hamburger" aria-hidden="true">☰</span>
+        </button>
+
+        <nav
+          id="primary-nav"
+          class="primary-nav"
+          aria-label="Primary navigation"
+        >
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a class="btn btn-primary" href="#cta">Get Started</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" role="main">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <h1>Ship better products — faster & with confidence</h1>
+            <p class="lead">
+              Design, prototype and launch beautiful experiences. Lightweight,
+              accessible, and built for teams of any size.
+            </p>
+            <div class="hero-ctas">
+              <a id="cta" class="btn btn-primary" href="#">Start free trial</a>
+              <a class="btn btn-ghost" href="#about">Learn more</a>
+            </div>
+
+            <ul class="trust">
+              <li><strong>99%</strong><span>Uptime</span></li>
+              <li><strong>250+</strong><span>Integrations</span></li>
+              <li><strong>Enterprise</strong><span>Ready</span></li>
+            </ul>
+          </div>
+
+          <aside class="hero-illustration" aria-hidden="true">
+            <!-- Simple decorative card -->
+            <div class="card">
+              <div class="card-header">
+                <svg
+                  width="36"
+                  height="36"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    fill="currentColor"
+                    opacity="0.12"
+                  />
+                </svg>
+                <div>
+                  <h3>Live preview</h3>
+                  <p>Responsive & performance-focused</p>
+                </div>
+              </div>
+
+              <div class="card-body">
+                <p class="muted">
+                  Built with semantic HTML, modern CSS (Grid/Flex) and a small
+                  JS layer for UX.
+                </p>
+                <div class="card-stats">
+                  <div><strong>4.8 </strong><span>Rating</span></div>
+                  <div><strong>250k </strong><span>Users</span></div>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section
+        id="features"
+        class="features container"
+        aria-labelledby="features-heading"
+      >
+        <h2 id="features-heading" class="section-title">Features</h2>
+        <div class="features-grid">
+          <article class="feature">
+            <h3>Responsive by default</h3>
+            <p>
+              Mobile-first CSS ensures fast, consistent experience across
+              devices.
+            </p>
+          </article>
+
+          <article class="feature">
+            <h3>Accessible markup</h3>
+            <p>
+              Semantic HTML + clear focus states for keyboard users and screen
+              readers.
+            </p>
+          </article>
+
+          <article class="feature">
+            <h3>Easy to customize</h3>
+            <p>
+              CSS variables and utility-friendly structure — theme it in
+              minutes.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="container about-inner">
+          <div>
+            <h2 class="section-title">Why Prodify?</h2>
+            <p>
+              Simple building blocks scaled for teams — performance-minded and
+              approachable for designers and engineers alike.
+            </p>
+            <a class="btn" href="#pricing">See pricing</a>
+          </div>
+
+          <div>
+            <ul class="bullets">
+              <li><h4>Accessible components</h4></li>
+              <li><h4>Performance-minded (no heavy libs)</h4></li>
+              <li><h4>Easy to customize & theme</h4></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="pricing"
+        class="container pricing"
+        aria-labelledby="pricing-heading"
+      >
+        <h2 id="pricing-heading" class="section-title">Plans</h2>
+        <div class="pricing-grid">
+          <div class="plan">
+            <h3>Starter</h3>
+            <p class="price">Free</p>
+            <ul>
+              <li>1 project</li>
+              <li>Community support</li>
+            </ul>
+            <a class="btn" href="#">Choose</a>
+          </div>
+
+          <div class="plan featured">
+            <h3>Pro</h3>
+            <p class="price">₹499 / mo</p>
+            <ul>
+              <li>Unlimited projects</li>
+              <li>Priority support</li>
+            </ul>
+            <a class="btn btn-primary" href="#">Start trial</a>
+          </div>
+
+          <div class="plan">
+            <h3>Enterprise</h3>
+            <p class="price">Custom</p>
+            <ul>
+              <li>SLA & onboarding</li>
+              <li>Dedicated manager</li>
+            </ul>
+            <a class="btn" href="#">Contact sales</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Prodify — crafted with Creativity</p>
+        <nav class="social" aria-label="Social links">
+          <a
+            target="_blank"
+            href="https://github.com/RishabhDev3589"
+            aria-label="GitHub"
+            >GitHub</a
+          >
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/rishabh-jhabmnm8"
+            aria-label="LinkedIn"
+            >LinkedIn</a
+          >
+          <a href="#" aria-label="Twitter">Twitter</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script>
+      // Mobile nav toggle (accessible)
+      (function () {
+        const navToggle = document.getElementById("nav-toggle");
+        const nav = document.getElementById("primary-nav");
+
+        navToggle.addEventListener("click", () => {
+          const expanded = navToggle.getAttribute("aria-expanded") === "true";
+          navToggle.setAttribute("aria-expanded", String(!expanded));
+          nav.classList.toggle("open");
+        });
+
+        // Close menu when clicking outside on small screens
+        document.addEventListener("click", (e) => {
+          if (
+            !nav.contains(e.target) &&
+            !navToggle.contains(e.target) &&
+            nav.classList.contains("open")
+          ) {
+            nav.classList.remove("open");
+            navToggle.setAttribute("aria-expanded", "false");
+          }
+        });
+
+        // Fill current year
+        document.getElementById("year").textContent = new Date().getFullYear();
+      })();
+    </script>
+  </body>
+</html>
