@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced To-Do App</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+
+  <body>
+    <!-- Theme Toggle -->
+    <button id="themeToggle" class="theme-btn">🌙 Dark Mode</button>
+
+    <div class="app-container">
+      <h1 class="title">📝 Advanced To-Do Manager</h1>
+
+      <!-- Category Selection -->
+      <div class="category-box">
+        <select id="categorySelect">
+          <option value="General">General</option>
+          <option value="Work">Work</option>
+          <option value="Personal">Personal</option>
+          <option value="Shopping">Shopping</option>
+        </select>
+      </div>
+
+      <!-- Input Section -->
+      <div class="input-area">
+        <input type="text" id="taskInput" placeholder="Enter a new task..." />
+        <button id="addBtn">Add</button>
+      </div>
+
+      <!-- Filters -->
+      <div class="filters">
+        <button data-filter="all" class="filter-btn active">All</button>
+        <button data-filter="pending" class="filter-btn">Pending</button>
+        <button data-filter="completed" class="filter-btn">Completed</button>
+      </div>
+
+      <!-- Task List -->
+      <ul id="todoList" class="todo-list"></ul>
+    </div>
+
+    <!-- Sound Effects -->
+    <audio id="addSound" src="add.mp3"></audio>
+    <audio id="deleteSound" src="delete.mp3"></audio>
+    <audio id="completeSound" src="complete.mp3"></audio>
+
+    <script src="script1.js"></script>
+  </body>
+</html>
