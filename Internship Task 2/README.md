@@ -1,4 +1,4 @@
-📝# Advanced Smart To-Do App — Task Manager
+📝## Advanced Smart To-Do App — Task Manager
 
 A modern, responsive, and feature-packed To-Do Management Web Application built using HTML5, CSS3 Vanilla JavaScript.
 Designed with clean UI, smooth animations, and powerful functionality such as dark/light mode, drag & drop, filters, categories, and custom sound effects.
@@ -28,7 +28,7 @@ File Description
 index.html:-  html Main application UI
 style.css:-   Styling, layout, animations, theming
 script.js:-   App logic, drag-drop, filters, theme switching
-add.mp3:-     Sound effect for adding tasks
+add.mp3:-     Sound effect for adding task
 delete.mp3:-  Sound effect for deleting tasks
 complete.mp3:-Sound effect for marking tasks complete
 README.md :-  Project documentation
@@ -86,3 +86,4 @@ Subtle transitions, hover micro-interactions, and glassmorphism UI.
 **Rishabh Shatrughn Jha**
 📧 rishabhsbjha9379@gmail.com
 💼 https://www.linkedin.com/in/rishabh-jhabmnm8
+
