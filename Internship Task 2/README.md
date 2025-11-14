@@ -23,15 +23,15 @@ This project demonstrates:-
 
 📱 Fully Responsive Layout — optimized for mobile, tablet & desktop
 
-🗂️ ##Project Structure
-File Description
-index.html:-  html Main application UI
-style.css:-   Styling, layout, animations, theming
-script.js:-   App logic, drag-drop, filters, theme switching
-add.mp3:-     Sound effect for adding task
-delete.mp3:-  Sound effect for deleting tasks
-complete.mp3:-Sound effect for marking tasks complete
-README.md :-  Project documentation
+🗂️ ##Project Structure  
+File Description  
+index.html:-  html Main application UI  
+style.css:-   Styling, layout, animations, theming  
+script.js:-   App logic, drag-drop, filters, theme switching  
+add.mp3:-     Sound effect for adding task  
+delete.mp3:-  Sound effect for deleting tasks  
+complete.mp3:-Sound effect for marking tasks complete  
+README.md :-  Project documentation  
 
 ## 📸 Preview
 
@@ -83,8 +83,9 @@ Subtle transitions, hover micro-interactions, and glassmorphism UI.
 
 ## 🏁 Author
 
-**Rishabh Shatrughn Jha**
-📧 rishabhsbjha9379@gmail.com
+**Rishabh Shatrughn Jha**  
+📧 rishabhsbjha9379@gmail.com  
 💼 https://www.linkedin.com/in/rishabh-jhabmnm8
+
 
 
